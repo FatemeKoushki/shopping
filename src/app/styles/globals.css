@@ -1,0 +1,15 @@
+@import "./base.css";
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* استایل برای صفحه‌های نمایش کوچکتر از 600px */
+@media only screen and (max-width: 320px) {
+  .searchModal {
+    width: 195px; /* تنظیم اندازه فونت برای دستگاه‌های کوچک */
+  }
+}
